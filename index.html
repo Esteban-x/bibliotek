@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Bibliotek</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg align-items-center d-flex navbar-dark">
+            <div class="container-fluid">
+                <!-- Logo afpa -->
+                <a class="navbar-brand" href="index.html"><span class="red"><i class="fa fa-book mx-1"></i></span>Biblio<span class="red">tek</span> ™</a>
+                <button class="navbar-toggler" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                type="button">
+                                <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Liste des liens de navigations -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Formation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Livres</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nos adresses</a>
+                        </li>
+                        <div class="bar-container">
+                            <span class="bar"></span>
+                        </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Promo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="form.html">Nous contacter</a>
+                        </li>
+                    </ul>
+                    <!-- Bouton rechercher -->
+                    <a class="nav-link" href=""><i class="fa-solid loupe fa-magnifying-glass"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <!-- On retrouve le même logo -->
+                            <a class="navbar-brand" href="index.html"><span class="red"><i class="fa fa-book mx-1"></i></span>Biblio<span class="red">tek</span> ™</a>
+                            <!-- Bouton pour fermer la sidebar -->
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <!-- On retrouve les liens de la navbar -->
+                        <div class="modal-body">
+                            <div class="modal-line">
+                                <a href="formation.html">Livres</a>
+                            </div>
+                            <div class="modal-line">
+                                <a href="temoignage.html">Nos adresses</a>
+                            </div>
+                            <div class="modal-line">
+                                <a href="references.html">Promo</a>
+                            </div>
+                            <div class="modal-line">
+                                <a href="form.html">Nous contacter</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+    </header>
+    <div class="my-6 jumbotron-fluid" style="background-image: url('./img/john-towner-JgOeRuGD_Y4-unsplash.jpg'); background-size: cover; background-position: center;" >
+        <div class="p-5 text-center">
+          <div class="container py-5">
+            <h1 class=" text-start">BIBLIOTHÈQUE EN LIGNE</h1>
+            <p class="col-lg- mx-auto lead text-start">
+                Parcourez donc dès maintenant notre bibliothèque pour découvrir un choix immense de livres, pour apprendre et vous cultivez… Vous pouvez aussi acheter les e-books sur notre librarie YouScribe.
+            </p>
+            <button class="btn btn-1 text-center btn-primary d-flex justify-content-start">S'INSCRIRE</button>
+          </div>
+        </div>
+    </div>
+
+    <main class="container-fluid main-container">
+        <div class="row gap-3 justify-content-center book-title text-center pr-1">
+            <h2>LIRE, VOIR, ÉCOUTER</h2>
+            <p>Plusieurs milliers de livres sont téléchargeables au format EPub gratuitement depuis Gallica, la bibliothèque numérique de la BnF. Ce format est particulièrement adapté à la lecture sur support mobile (smartphones, liseuses, tablettes). Depuis «Les travailleurs de la mer» de Victor Hugo dans l’édition de 1876, illustrée par Daniel Vierge, jusqu’aux sélections jeunesse (Jean de La Fontaine, Benjamin Rabier, Jules Verne…), il y en a pour tous les publics.</p>
+        </div>
+        <div class="row gap-4 justify-content-center book-container">
+            <div class="col-lg-3 col-md-4 col-sm-12" style="width: 300px">
+                <div class="card" style="width: 100%">
+                    <img src="./img/fred.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h2 class="card-titre">Sur la dalle</h2>
+                        <h6 class="card-author">Fred Vargas</h6> 
+                      <p class="card-text">Le dolmen dont tu m'as parlé, Johan, il est bien sur la route du petit pont ? - A deux kilomètres après le petit pont, ne te trompe pas.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12" style="width: 300px">
+                <div class="card" style="width: 100%">
+                    <img src="./img/virginie.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h2 class="card-titre">Il nous restera</h2>
+                      <h6 class="card-author">Virginie Grimaldi</h6>
+                      <p class="card-text">A trente-trois ans, Iris trimballe sa vie dans une valise. Théo, dix-huit ans, a peu de rêves, car ils en foutent partout quand ils se brisent.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12" style="width: 300px">
+                <div class="card" style="width: 100%">
+                    <img src="./img/riley.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h2 class="card-titre">Les sept soeurs</h2>
+                      <h6 class="card-author">Lucinda Riley</h6>
+                      <p class="card-text">Comme l'a souhaité leur père, l'énigmatique milliardaire Pa Salt, les sept soeurs d'Aplièse sont enfin réunies. C'est à bord du Titan qu'elles vont lui rendre</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <div class="row gap-3 justify-content-center book-title text-center pr-1">
+            <h2>ABONNEMENTS</h2>
+            <p>Bibliotek ™ propose plusieurs types d'abonnements en fonction des différents profils de lecteurs. Du lecteur du dimanche au lecteur expérimenté vous trouverez toutes sortes d'avantages pour un prix plus que raisonnable. Nous disposons de plus de 300 bibliothèques dans toutes la France et 1500 dans toutes l'Europe en dehors de la France. Ces offres vous donnent tous accés aux différents lieu de lectures grâce a une carte que vous recevrez lors de votre abonnement.</p>
+        </div>
+        <div class="row mx-auto px-5">
+            <div class="col-lg-4 col-md-12 mb-4">
+                <div class="card h-100 shadow-lg">
+                  <div class="card-body">
+                    <div class="text-center p-3">
+                      <h5 class="card-titre">Basique</h5>
+                      <p class="d-inline">Individuel</p>
+                      <br><br>
+                      <span class="h2">8&euro;</span><p class="d-inline">/mois</p>
+                      <br><br>
+                    </div>
+                    <p class="card-text">Cette offre s'adresse au lecteur occasionnel solitaire souhaitant lire son livre à la maison</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                      <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                    </svg>Un livre gratuit tout les 3 mois</li>
+                    <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                      <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                    </svg>Magazine hebdomadaire -50%</li>
+                    <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                      <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                    </svg>Accés aux bibliothèques partout en France</li>
+                  </ul>
+                  <div class="card-body text-center">
+                    <button class="btn  btn-lg" style="border-radius:30px">Acheter</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-12 mb-4">
+                <div class="card h-100 shadow-lg">
+                  <div class="card-body">
+                    <div class="text-center p-3">
+                      <h5 class="card-titre">Standard</h5>
+                      <p class="d-inline">Couples</p>
+                      <br><br>
+                      <span class="h2">20&euro;</span><p class="d-inline">/mois</p>
+                      <br><br>
+                    </div>
+                    <p class="card-text">Une offre pour les amoureux qui souhaitent lire regulièrement chez eux ou dehors</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                      <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                    </svg>-30% sur les romans d'amour</li>
+                    <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                      <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                    </svg>2 livres gratuits tout les 3 mois</li>
+                    <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                      <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                    </svg>Accés aux bibliothèques partout en France</li>
+                  </ul>
+                  <div class="card-body text-center">
+                    <button class="btn  btn-lg" style="border-radius:30px">Acheter</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-12 mb-4">
+                <div class="card h-100 shadow-lg">
+                  <div class="card-body">
+                    <div class="text-center p-3">
+                      <h5 class="card-titre">Premium</h5>
+                      <p class="d-inline">Expert</p> 
+                      <br><br>
+                      <span class="h2">40&euro;</span><p class="d-inline">/mois</p>
+                      <br><br>
+                    </div>
+                    <p class="card-text">L'offre ultime pour les lecteurs expérimenté grands dévoreurs de livres</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                      <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                    </svg>50% de réduction sur tout les livres</li>
+                    <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                      <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                    </svg>Un livre gratuit tout les mois</li>
+                    <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                      <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                    </svg>Accés aux bibliothèques partout en Europe</li>
+                  </ul>
+                  <div class="card-body text-center">
+                    <button class="btn  btn-lg" style="border-radius:30px">Acheter</button>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="row gap-3 stat justify-content-center book-title text-center pr-1">
+            <h2>STATISTIQUES</h2>
+            <p style="font-weight: 500; text-transform: uppercase;  border-radius: 5px;">Voici une liste exhaustives des données de l'Entreprise Bibliotek ™ en 2023</p>
+
+            <div class="col-lg-3 col-md-4 col-sm-12">
+                <h4>Lecteurs</h4>
+                <p style="font-weight: 400;">37 854</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12">
+                <h4>Livres</h4>
+                <p style="font-weight: 400;">122 467</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12">
+                <h4>Achats</h4>
+                <p style="font-weight: 400;">261 233</p>
+            </div>
+        </div>
+    </main>
+
+    <div class="jumbotron jumbotron-fluid cover-2" style="background-image: url('/img/felipepelaquim-ppg7GuXOUYc-unsplash.jpg'); background-size: cover; background-position: center;">
+        <div class="container">
+          <p class="rene-text text-center">La lecture de tous les bons livres est comme une conversation avec les plus honnêtes gens des siècles passés.</p>
+          <h1 class="display-3 mt-5 rene-title text-center"><img src="./img/rené.jpg" class="rene d-inline" alt="">&nbsp;&nbsp;René Descartes</h1>
+        </div>
+    </div>
+    <div class="subscribe container-fluid">
+        <div class="row gap-3 justify-content-center book-title text-center pr-1">
+            <h2>E-Book</h2>
+            <p>Ici vous pouvez rechercher le livre de votre choix en version numerique, pas besoin de commander ou d'attendre la livraison. Uniquement les utilisateurs abonnés ont accés à nos différents e-book</p>
+        </div>
+        <div class="input-group searchbar d-flex justify-content-center">
+            <div class="form-outline">
+              <input type="search" id="form1" class="form-control search"  placeholder="Rechercher"/>
+            </div>
+            <button type="button" class="btn btn-search btn-primary">
+              Rechercher
+            </button>
+          </div>
+    </div>
+
+    <section class="footer">
+        <!-- Footer -->
+        <footer class="text-white text-center text-md-start">
+          <!-- Grid container -->
+          <div class="container p-4">
+            <!--Grid row-->
+            <div class="row d-flex justify-content-between">
+              <!--Grid column-->
+              <div class=" col-lg-6 col-md-12 mb-4 mb-md-3">
+                <h5 class="text-uppercase">Bibliotek</h5>
+      
+                <p>
+                    Plusieurs milliers de livres sont téléchargeables au format EPub gratuitement depuis Gallica, la bibliothèque numérique de la BnF. Ce format est particulièrement adapté à la lecture sur support mobile (smartphones, liseuses, tablettes).
+                </p>
+
+                      <!-- Facebook -->
+                <a class="btn  btn-floating m-1" href="#!" role="button"
+                ><i class="fab fa-facebook-f"></i
+                ></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                ><i class="fab fa-twitter"></i
+                ></a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                ><i class="fab fa-google"></i
+                ></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                ><i class="fab fa-instagram"></i
+                ></a>
+
+              </div>
+              <!--Grid column-->
+      
+              <!--Grid column-->
+              <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">A propos</h5>
+      
+                <ul class="list-unstyled mb-1">
+                  <li>
+                    <a href="#!" class="text-red">Notre histoire</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-red">Nos equipes</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-red">Guide de la marque</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-red">Termes et conditions</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+      
+              <!--Grid column-->
+              <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-1">Services</h5>
+      
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!" class="text-red">Guide de commande</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-red">Nos produits</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-red">Status de la commande</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-red">Promo</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-1">S'abonner</h5>
+      
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!" class="text-red">Basique</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-red">Standard</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-red">Premium</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-red">Se désabonner</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </div>
+          <!-- Grid container -->
+        </footer>
+        <!-- Footer -->
+      </section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>
